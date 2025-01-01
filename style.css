@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1e3f0;
+    color: #000;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #5d5eaa;
+}
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #FFFFFF !important;
+}
+.navbar .navbar-brand:hover, .navbar .nav-link:hover {
+    color: #f1e3f0 !important;
+}
+#toggle-mode{
+    margin-left: 10px;
+}
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+.search_oke {
+    color: #5d5eaa;
+    border-color: #5d5eaa;
+    background-color: #fff;
+    border-radius: 15%;
+}
+
+/* Header Section */
+#hero h1, #hero h4 {
+    color: #5d5eaa;
+}
+
+/* Footer */
+footer {
+    background-color: #5d5eaa;
+    color: #FFFFFF;
+}
+footer .h2 {
+    color: #FFFFFF !important;
+}
+
+footer .text-light {
+    color: #FFFFFF !important;
+}
+
+/* Carousel image */
+
+/* .carousel-custom {
+    height: 100%; 
+    margin: 0 auto; 
+    object-fit: cover;
+} */
+@media (max-width: 768px) {
+    /* Gaya untuk layar kecil */
+    .carousel-inner img {
+      height: 300px; /* Atur tinggi maksimum untuk layar kecil */
+    }
+}
+
+
+/* ARTIKEL */
+#article{
+    margin-top: 0px; 
+    margin-bottom: 50px; 
+}
+#article h2{
+    margin-bottom: 30px;
+}
+#article h2, #gallery h2 {
+    color: #5d5eaa;
+}
+.card {
+    background-color: #FFFFFF;
+    color: #000;
+    border: 1px solid #5d5eaa;
+}
+.card .card-title {
+    color: black;
+}
+.img-fixed {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+
+/* PAGE GALERY */
+.gallery-section {
+    padding: 20px;
+}
+.gallery-container {
+    border: 1px solid #f1e3f0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.gallery-container {
+    color: #5d5eaa;
+}
+.gallery-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+}
