@@ -28,9 +28,6 @@ include 'navbar.php';  // Sertakan file navbar
                     <div class="carousel-item">
                         <img src="img/udinus1.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/udinus7.jpg" class="d-block w-100" alt="...">
-                    </div>
                 </div>
         
                 <!-- BUTTON NEXT,BACK -->
